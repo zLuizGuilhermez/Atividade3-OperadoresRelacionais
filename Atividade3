@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+
+main(){
+
+    float altura, fixa = 1.80;
+
+
+    printf("Qual sua altura ? utilize o formato de metros");
+    scanf("%f", &altura);
+
+    if (altura >= fixa)
+    {
+     printf("Voce e maior ou igual a 1,80 centimetros");
+    }
+    else{
+
+        printf("Voce e menor que 1,80 centimetros");
+    }
+
+
+
+}
