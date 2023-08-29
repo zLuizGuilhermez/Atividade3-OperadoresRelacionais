@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+
+main(){
+
+    float peso, fixa = 60.00;
+
+
+    printf("Qual seu peso ? em kg");
+    scanf("%f", &peso);
+
+    if (peso >= fixa)
+    {
+     printf("voce possui mais de 60 kg ou igual");
+    }
+    else{
+
+        printf("voce possui menos de 60 kg");
+    }
+
+
+
+}
