@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+
+main(){
+ 
+    int a=0, b=1212;
+
+    printf("Qual seu salario:");
+    scanf("%d", &a);
+
+    if ( a >= b)
+    {
+        printf("Seu salario e maior ou igual ao minimo");
+    }else if (a < b)
+    {
+        printf("Seu salario e menor que o minimo");
+    }
+    
+
+
+}
