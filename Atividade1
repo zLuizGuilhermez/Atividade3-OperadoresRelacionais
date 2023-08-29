@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+main(){
+     
+    //operadores relacionais = <> >= <= 
+
+    int a = 0, b = 18;
+
+    printf("Digite sua idade:");
+    scanf("%d", &a);
+
+    if ( a >= b)
+    {
+        printf("Ok. Pode passar");
+    }
+    else{
+
+       printf("Vc nao pode passar");
+
+    }
+
+
+
+
+}
